@@ -1,0 +1,13 @@
+/**mixin*/
+@mixin background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+  }
