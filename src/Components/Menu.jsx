@@ -3,7 +3,7 @@ import Img from '../images/chicago.jpg'
 const Manu = () => {
     return (
         <div>
-            <div className='container about pt-3'>
+            <div className='container about pt-3 my-5'>
                 <div className='row pt-3'>
                     <div className='col-md-6 col-xs-10 text col-10 order-2'>
                         <h3>the pizza menu</h3>
@@ -18,7 +18,7 @@ const Manu = () => {
                         <button type='button' className='btn btn-outline-light'>read more</button>
                     </div>
                     <div className='col-md-6 col-xs-10  pt-4 col-10 order-'>
-                        <img src={Img} alt='menu-photo' className='menu-img' />
+                        <img src={Img} alt='menu' className='menu-img' />
                     </div>
 
                 </div>

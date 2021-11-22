@@ -20,16 +20,17 @@ const Contact = () => {
 
     return (
         <>
-            <div className='my-2 text-center'>
-                <h1 className='contact-head'>contact us</h1>
+            <div className='mt-5 text-center  '>
+                <h1 className='contact-head mt-5'>.</h1>
             </div>
-            <div className='container-fluid text-start contact text-capitalize'>
+            <div className='container-fluid text-start contact text-capitalize my-5'>
+            <h1 className='contact-head mt-5 text-center'>contact us</h1>
                 <div className='row'>
                     <div className='col-md-6 col-10 mx-auto'>
 
                         <form onSubmit={formSubmit}>
                             <div className="mb-2">
-                                <label for="exampleFormControlInput1" class="form-label" >fullname</label>
+                                <label for="exampleFormControlInput1" className="form-label" >fullname</label>
                                 <input type="fullname"
                                     className="form-control"
                                     name='fullname'
@@ -39,7 +40,7 @@ const Contact = () => {
                                     placeholder='enter your fullname' />
                             </div>
                             <div className="mb-2">
-                                <label for="exampleFormControlInput1" class="form-label" >email</label>
+                                <label for="exampleFormControlInput1" className="form-label" >email</label>
                                 <input
                                     type='email'
                                     className="form-control"

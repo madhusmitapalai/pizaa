@@ -8,11 +8,11 @@ import Pizza6 from '../images/pizza6.png'
 const News = () => {
     return (
         <div>
-            <div className='container news p-4'>
+            <div className='container news p-4 my-5'>
                 <div className='row '>
                     <div className='col-md-4 col-10  p-3'>
                        <div className='cards'>
-                       <img src={Pizza1} alt='piza-photo' className='pizzas' />
+                       <img src={Pizza1} alt='piza' className='pizzas' />
                         <h3>chicago pizza</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.A maiores
@@ -26,7 +26,7 @@ const News = () => {
                     </div>
                     <div className='col-md-4 col-10  p-3'>
                         <div className='cards'>
-                        <img src={Pizza2} alt='piza-photo' className='pizzas' />
+                        <img src={Pizza2} alt='piza' className='pizzas' />
                         <h3>chicago pizza</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.A maiores
@@ -40,7 +40,7 @@ const News = () => {
                     </div>
                     <div className='col-md-4 col-10  p-3'>
                        <div className='cards'>
-                       <img src={Pizza3} alt='piza-photo' className='pizzas' />
+                       <img src={Pizza3} alt='piza' className='pizzas' />
                         <h3>chicago pizza</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.A maiores
@@ -54,7 +54,7 @@ const News = () => {
                     </div>
                     <div className='col-md-4 col-10  p-3'>
                         <div className='cards'>
-                        <img src={Pizza4} alt='piza-photo' className='pizzas' />
+                        <img src={Pizza4} alt='piza' className='pizzas' />
                         <h3>chicago pizza</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.A maiores
@@ -68,7 +68,7 @@ const News = () => {
                     </div>
                     <div className='col-md-4 col-10  p-3'>
                         <div className='cards'>
-                        <img src={Pizza5} alt='piza-photo' className='pizzas' />
+                        <img src={Pizza5} alt='piza' className='pizzas' />
                         <h3>chicago pizza</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.A maiores
@@ -82,7 +82,7 @@ const News = () => {
                     </div>
                     <div className='col-md-4 col-10 p-3'>
                        <div className='cards'>
-                       <img src={Pizza6} alt='piza-photo' className='pizzas' />
+                       <img src={Pizza6} alt='piza' className='pizzas' />
                         <h3>chicago pizza</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.A maiores

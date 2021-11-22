@@ -1,9 +1,9 @@
 import React from 'react'
-import Img from '../images/pizza.jpg'
+import image from '../images/pizza.jpg'
 const About = () => {
     return (
         <div>
-            <div className='container about pt-3'>
+            <div className='container about pt-3 my-auto'>
                 <div className='row pt-3'>
                     <h3>about us</h3>
                     <div className='col-md-6 about-1 text col-10 order-1'>
@@ -18,7 +18,7 @@ const About = () => {
                         <button type='button' className='btn btn-outline-light'>read more</button>
                     </div>
                     <div className='col-md-6  pt-4 col-10 order-2'>
-                        <img src={Img} alt='about-photo' className='about-img' />
+                        <img src={image} alt='about' className='about-img' />
                     </div>
                 </div>
             </div>
